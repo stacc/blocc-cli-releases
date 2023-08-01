@@ -1,0 +1,22 @@
+{
+    "version": "0.1.27",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/stacc/blocc-cli-releases/releases/download/v0.1.27/blocc_0.1.27_Windows_i386.tar.gz",
+            "bin": [
+                "blocc.exe"
+            ],
+            "hash": "f4d7b9be80a03021edae6af868d418eecfc179a2aa21c8fc477deb61d7dea086"
+        },
+        "64bit": {
+            "url": "https://github.com/stacc/blocc-cli-releases/releases/download/v0.1.27/blocc_0.1.27_Windows_x86_64.tar.gz",
+            "bin": [
+                "blocc.exe"
+            ],
+            "hash": "500a597b814de28b5e2e36ec1eff6dadad947412f5062fb1648123f5ba9f1b89"
+        }
+    },
+    "homepage": "https://github.com/stacc/blocc-cli-releases",
+    "license": "Apache-2.0",
+    "description": "Software used to communicate with Stacc cloud environments"
+}
