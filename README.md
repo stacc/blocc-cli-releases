@@ -1,6 +1,6 @@
-# Blocc CLI
+# blocc CLI
 
-This repository is being used to hold the Blocc CLI [releases](https://github.com/stacc/blocc-cli/releases).
+This repository is being used to hold the blocc CLI [releases](https://github.com/stacc/blocc-cli/releases).
 
 ## Installation
 
