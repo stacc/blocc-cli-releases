@@ -28,13 +28,13 @@ brew install blocc
 First add the repository with
 
 ```
-scoop bucket add stacc https://github.com/stacc/blocc-cli
+scoop bucket add blocc https://github.com/stacc/blocc-cli
 ```
 
 Then install the CLI with
 
 ```
-scoop install stacc
+scoop install blocc
 ```
 
 ### From terminal
