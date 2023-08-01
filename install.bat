@@ -21,7 +21,7 @@ IF %ERRORLEVEL% NEQ 0 (
 )
 
 SETLOCAL ENABLEDELAYEDEXPANSION
-SET manifest=https://api.github.com/repos/stacc/blocc-cli/releases/latest
+SET manifest=https://api.github.com/repos/stacc/blocc-cli-releases/releases/latest
 FOR /F "tokens=* USEBACKQ" %%F IN (`curl -LSs %manifest%^|findstr /r "\"tag_name\": \"v[0-9]+\.[0-9]+\.[0-9]+\""`) DO (
   SET temp=%%F
 )
@@ -32,7 +32,7 @@ IF %ERRORLEVEL% NEQ 0 (
 )
 
 SET VERSION=%temp:~14,-2%
-SET URL=https://github.com/stacc/blocc-cli/releases/download/v%VERSION%/blocc_%VERSION%_Windows_x86_64.tar.gz
+SET URL=https://github.com/stacc/blocc-cli-releases/releases/download/v%VERSION%/blocc_%VERSION%_Windows_x86_64.tar.gz
 
 ECHO - Downloading and extracting file from %URL%
 MKDIR %APPDATA%\blocc

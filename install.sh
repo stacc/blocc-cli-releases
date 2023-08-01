@@ -23,9 +23,9 @@ fi
 
 ARCH="\$(uname -m)"
 
-VERSION=$(curl -L --silent "https://api.github.com/repos/stacc/blocc-cli/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
+VERSION=$(curl -L --silent "https://api.github.com/repos/stacc/blocc-cli-releases/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/')
 
-URL="https://github.com/stacc/blocc-cli/releases/download/$VERSION/blocc_${VERSION:1}_$(uname)_$(uname -m).tar.gz"
+URL="https://github.com/stacc/blocc-cli-releases/releases/download/$VERSION/blocc_${VERSION:1}_$(uname)_$(uname -m).tar.gz"
 
 echo "- Downloading from $URL"
 

@@ -1,6 +1,6 @@
 # blocc CLI
 
-This repository is being used to hold the blocc CLI [releases](https://github.com/stacc/blocc-cli/releases).
+This repository is being used to hold the blocc CLI [releases](https://github.com/stacc/blocc-cli-releases/releases).
 
 ## Installation
 
@@ -42,15 +42,15 @@ scoop install blocc
 MacOS and Linux users
 
 ```
-curl -s https://raw.githubusercontent.com/stacc/blocc-cli/main/install.sh | bash -s --
+curl -s https://raw.githubusercontent.com/stacc/blocc-cli-releases/main/install.sh | bash -s --
 ```
 
 Windows users
 
 ```
-curl -LSs https://raw.githubusercontent.com/stacc/blocc-cli/main/install.bat -o %TEMP%\blocc-install.bat && CMD /C %TEMP%\blocc-install.bat && del %TEMP%\blocc-install.bat
+curl -LSs https://raw.githubusercontent.com/stacc/blocc-cli-releases/main/install.bat -o %TEMP%\blocc-install.bat && CMD /C %TEMP%\blocc-install.bat && del %TEMP%\blocc-install.bat
 ```
 
 ### Direct download
 
-Download the latest release [here](https://github.com/stacc/blocc-cli/releases/latest).
+Download the latest release [here](https://github.com/stacc/blocc-cli-releases/releases/latest).
