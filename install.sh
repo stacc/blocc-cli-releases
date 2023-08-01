@@ -30,9 +30,9 @@ URL="https://github.com/stacc/blocc-cli-releases/releases/download/$VERSION/bloc
 echo "- Downloading from $URL"
 
 if [ $(command -v curl) ]; then
-    curl -LSs "$URL" | tar xz
+    curl -LSs "$URL" | tar --exclude='README.md' -xz
 else
-    wget -O- "$URL" | tar xz
+    wget -O- "$URL" | tar --exclude='README.md' -xz
 fi
 
 if [ $? -ne 0 ]; then

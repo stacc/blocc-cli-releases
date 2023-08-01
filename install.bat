@@ -36,7 +36,7 @@ SET URL=https://github.com/stacc/blocc-cli-releases/releases/download/v%VERSION%
 
 ECHO - Downloading and extracting file from %URL%
 MKDIR %APPDATA%\blocc
-curl -LSs %URL%|tar -C %APPDATA%\blocc -xzf -
+curl -LSs %URL%|tar -C %APPDATA%\blocc --exclude=README.md -xzf -
 
 IF %ERRORLEVEL% NEQ 0 (
   ECHO An error has occurred when trying to download and extract the .tar.gz file
