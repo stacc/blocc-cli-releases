@@ -1,26 +1,26 @@
 {
-    "version": "0.2.16",
+    "version": "0.2.17",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/stacc/blocc-cli-releases/releases/download/cli-v0.2.16/blocc_0.2.16_windows_386.tar.gz",
+            "url": "https://github.com/stacc/blocc-cli-releases/releases/download/cli-v0.2.17/blocc_0.2.17_windows_386.tar.gz",
             "bin": [
                 "blocc.exe"
             ],
-            "hash": "86109315547691522d68bb28567df448ac4a9a773d276e9f921d2916eb273235"
+            "hash": "c9e7bb4f86f608c7a8c5825acdf71b07be0bcbfa46fe6ba31579b5f485060d94"
         },
         "64bit": {
-            "url": "https://github.com/stacc/blocc-cli-releases/releases/download/cli-v0.2.16/blocc_0.2.16_windows_amd64.tar.gz",
+            "url": "https://github.com/stacc/blocc-cli-releases/releases/download/cli-v0.2.17/blocc_0.2.17_windows_amd64.tar.gz",
             "bin": [
                 "blocc.exe"
             ],
-            "hash": "b3cbca5f62f141bbc843dde8f4774e53c69c6e7ccdbeefe0bb12c2753584a56f"
+            "hash": "1f06e1d7ed285960645b4c0ac58a0e19dd468c3c8ce2ed649ec62943aa0535af"
         },
         "arm64": {
-            "url": "https://github.com/stacc/blocc-cli-releases/releases/download/cli-v0.2.16/blocc_0.2.16_windows_arm64.tar.gz",
+            "url": "https://github.com/stacc/blocc-cli-releases/releases/download/cli-v0.2.17/blocc_0.2.17_windows_arm64.tar.gz",
             "bin": [
                 "blocc.exe"
             ],
-            "hash": "1f3ad5367ef111dc87ef6e2a95a701b0215d6694554f00e1a253add41f2b386b"
+            "hash": "55a6e6c1232d43f9ec32440442b4144dc595f2a85ab7a6481ecbffd906d67895"
         }
     },
     "homepage": "https://github.com/stacc/blocc-cli-releases",
