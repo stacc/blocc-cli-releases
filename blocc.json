@@ -1,19 +1,19 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/stacc/blocc-cli-releases/releases/download/cli-v1.0.1/blocc_1.0.1_windows_amd64.tar.gz",
+            "url": "https://github.com/stacc/blocc-cli-releases/releases/download/cli-v1.0.2/blocc_1.0.2_windows_amd64.tar.gz",
             "bin": [
                 "blocc.exe"
             ],
-            "hash": "e211a990fcc3f11c28f5a7ba312097421b03a562e514bf0517f0931f73a2a078"
+            "hash": "f17c17af6d7c111801e7e78783bec18af16b0751f0e88414aa21541a51d5f562"
         },
         "arm64": {
-            "url": "https://github.com/stacc/blocc-cli-releases/releases/download/cli-v1.0.1/blocc_1.0.1_windows_arm64.tar.gz",
+            "url": "https://github.com/stacc/blocc-cli-releases/releases/download/cli-v1.0.2/blocc_1.0.2_windows_arm64.tar.gz",
             "bin": [
                 "blocc.exe"
             ],
-            "hash": "2f8d2cb266af4fe5eb7f63973bc9c45926ecb61b0bee0efe697cd1814a5ea96d"
+            "hash": "89956d376eb9a3aef232b3bb1345a94583406a92319b45a258e6f750ef78f0b9"
         }
     },
     "homepage": "https://github.com/stacc/blocc-cli-releases",
